@@ -12,7 +12,7 @@ export function ex1(r) {
 //La función devolverá el área del círculo aplicando la fórmula A = π * r^2.
 export function ex2(r) {
     if (r < 0) return null; 
-    return Math.PI * r^2 
+    return Math.PI * r * r 
 } 
 
 module.exports = { ex1, ex2}
